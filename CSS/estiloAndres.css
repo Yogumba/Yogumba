@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Ubuntu'
+}
+
+body{
+    background: #E5E5E5;
+    margin: 0;
+}
+
+/* Quienes Somos */
+#quienesBody{
+    background: #E5E5E5;
+}
+#quienesSection1{
+    width: 100%;
+    height: 1001px;
+    background-image: url("https://drive.google.com/uc?export=view&id=19oGvAnHoiUMBpa-G2_ZMZxqa-8xuD6Nq");
+}
+#quienesPrimerHeader{
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 147px;
+    padding-left: 95px;
+    padding-bottom: 28px;
+}
+#quienesContenedorDesc1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1F1E22;
+    padding-bottom: 28px;
+    padding-left: 95px;
+}
+#quienesBoton1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.34);
+    border-radius: 20px;
+    height: 53px;
+    width: 244px;
+    margin-left: 95px;
+}
+#quienesSection2{
+    padding-top: 108px;
+}
+#quienesHeader2{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+    text-align: center;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 50px;
+}
+#quienesDesc2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    color: #1F1E22;
+    padding-bottom: 98px;
+    padding-left: 87px;
+}
+#quienesHeader3{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+    text-align: center;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#quienesContenedor{
+    display: flex ;
+}
+#quienesContenedorDesc3{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    color: #1F1E22;
+    padding-left: 87px;
+    padding-right: 5px;
+}
+#quienesContenedorDesc3 p{
+    padding-bottom: 50px;
+}
+#quienesImg1{
+    height: 1304px;
+}
+#quienesContenedorDesc4{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    color: #1F1E22;
+    padding-left: 87px;
+    padding-bottom: 57px;
+}
+#quienesSection3{
+    background: linear-gradient(180deg, rgba(147, 126, 243, 0.6) 4.54%, rgba(255, 241, 239, 0.6) 91.21%);
+}
+.quienesImg{
+    width: 866px;
+    height: 650px;
+}
+.quienesTituloLugares{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 110px;
+    text-align: center;
+
+    background: radial-gradient(352.41% 44.27% at 50% 55.73%, #7FCFA7 0%, #5C9578 58.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.quienesTextoLugares{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    color: #1F1E22;
+}
+#quienesAustralia, #quienesIndia, #quienesPresente{
+    display: flex;
+}
+#quienesImgIndia{
+    width: 780px;
+    margin: 30px;
+}
+/* Blog */
+.blogSection1{
+    background-image: url("https://drive.google.com/uc?export=view&id=17SxOSt7SfuRRZ-WlITumeGx6moD_bimM");
+    width: 100%;
+    height: 1009px;
+}
+.blogSection2{
+    background: linear-gradient(180deg,rgba(147, 126, 243, 0.4) 0%, rgba(255, 241, 239, 0.4) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bogPrimerHeader{
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 5%;
+    padding-top: 155px;
+    padding-bottom: 28px;
+}
+#blogPrimerDesc{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1F1E22;
+    max-width: 742px;
+    margin-left: 5%;
+}
+#blogSegundoHeader{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height, or 128% */
+    text-align: center;
+    background: linear-gradient(180deg, #7FCFA7 14.84%, #5C9578 87.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 103px;
+}
+#blogSegundaDesc{
+    font-family: 'Helvetica Now Text ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #AAAAAA;
+    justify-self: center;
+    width: 836px;
+    margin-bottom: 70px;
+}
+.blogContenedorCartas{
+    display: flex;
+    justify-content: center;
+}
+#cartaZumba{
+    margin-right: 64px;
+}
+#cartaYoga{
+    margin-right: 64px;
+}
+.blogCarta{
+    width: 538px;
+    height: 577px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogCarta h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    /* identical to box height, or 178% */
+    text-align: center;
+    background: linear-gradient(180deg, #7FCFA7 24.22%, #5C9578 73.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.blogCarta p{
+    margin-left: 4.2%;
+    margin-right: 4.2%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #A1AEB7;
+}
+.blogCarta button{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(92, 149, 120, 0.5);
+    height: 58px;
+    width: 274px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+
+/* Contacto */
+
+#contactoSectionContacto{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFF1EF 100%), url("https://drive.google.com/uc?export=view&id=1hbRr7dUQcfsLEx6sep3CX6moxmkLIgSO");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 100vw;
+    min-height: 100%;
+}
+
+#contactoHeaderPrincipal{
+    margin-left: 4.95%;
+    top: calc(50% - 76px/2 - 468px);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contenedorContacto{
+    display: flex;
+    margin-left: 6.15%;
+    margin-right: 5.36%;
+}
+
+#contactoHeaderSecundario{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    /* or 145% */
+    color: #000000;
+}
+
+#contactoDescripcionSecundaria{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    width: 60%;
+}
+
+/* Lista datos */
+.contactoLista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.contactoLista li{
+    display: flex;
+    align-items: center;
+}
+.contactoListaImg{
+    height: 40.37px;
+    width: 40.37px;
+}
+
+/* Formaulario */
+#contactoFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 600px ;
+}
+.contenedorInput{
+    margin-bottom: 30px;
+    padding: 4px;
+    border-radius: 25px;
+    position: relative;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+}
+.contenedorInputTextarea{
+    margin-bottom: 30px;
+    padding: 4px;
+    padding-bottom: 0px;
+    border-radius: 25px;
+    position: relative;
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+}
+.contactoInput{
+    background: #FAF9FA;
+    box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.34);
+    border-radius: 21px;
+    width: 91%;
+    padding: 4.46%;
+    border: none;
+}
+
+#contactoFormularioTexto{
+    resize: none;
+}
+#contactoFormularioBoton{
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    box-shadow: 0px 8px 16px rgba(92, 149, 120, 0.5);
+    border-radius: 25px;
+    border-style: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px;
+}
