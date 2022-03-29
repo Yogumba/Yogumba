@@ -34,6 +34,9 @@ const contactoIngles = {
 }
 
 /* Funciones */ 
+const contactoEsp = ()=>{
+    return
+}
 
 /*  Local Storage  */
 if (localStorage.getItem("lenguaje") == null) {
