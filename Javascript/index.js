@@ -9,6 +9,12 @@ navToggle.addEventListener("click", () => {
         navToggle.setAttribute("aria-label", "Abrir menú");
     }
 });
+$('.owl-carousel').owlCarousel({
+    items:4,
+    lazyLoad:true,
+    loop:true,
+    margin:10
+});
 
 var owl = $(".img-carousel");
 owl.owlCarousel({
