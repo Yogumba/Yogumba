@@ -1,7 +1,60 @@
 /*  Variables  */
 let lenguaje
 
-//Texto en Español
+/* Textos */
+const blogEsp = {
+    section1: {
+        primerHeader: "Compartamos nuestra sabiduria",
+        primerDesc: "Queremos contarte un poco más acerca de lo que significa cada uno de los pilares que conforman la experiencia YOGUMBA.",
+    },
+    section2: {
+        segundoHeader: "¿Sobre que deseas informarte hoy?",
+        cartas: {
+            zumba: {
+                titulo: "Zumba",
+                desc: ["Zumba es una herramienta que trae conciencia acerca de la experiencia física. Al bailar, le das a tu cuerpo un regalo y lo despertas."],
+                boton: "Ver más",
+            },
+            yoga: {
+                titulo: "Yoga",
+                desc: ["Yoga es UNIÓN. Trae consciencia acerca de la conexión entre el cuerpo y la espiritualidad.", "Es un viaje de CONCIENCIA y CONEXIÓN."],
+                boton: "Ver más",
+            },
+            meditacion: {
+                titulo: "Meditación",
+                desc: ["La meditación consiste en conectar con el propio ritmo de respiración.", "La intención, es poder mantener un estado de neutralidad con todo aquello que se va viendo de un@ mism@."],
+                boton: "Ver más",
+            },
+        },
+    },
+}
+const blogEng = {
+    section1: {
+        primerHeader: "Sharing our wisdom",
+        primerDesc: "We would like to tell you more about each one of the pillars that make up the YOGUMBA experience.",
+    },
+    section2: {
+        segundoHeader: "What would you like to know today?",
+        cartas: {
+            zumba: {
+                titulo: "ZUMBA",
+                desc: ["Yoga is UNION. It brings us awareness of the connection between our body and spirituality. It is a trip towards CONSCIOUSNESS and CONNECTION."],
+                boton: "View more", /* No nos lo paso lo tuve que poner yo */
+            },
+            yoga: {
+                titulo: "YOGA",
+                desc: ["Yoga is UNION. It brings us awareness of the connection between our body and spirituality. It is a trip towards CONSCIOUSNESS and CONNECTION."],
+                boton: "View more", /* No nos lo paso lo tuve que poner yo */
+            },
+            meditacion: {
+                titulo: "",
+                desc: ["Meditation consists of connecting with your own breathing rythm. We put our intention in being able to maintain a neutral state with everything that we observe about ourselves."],
+                boton: "View more", /* No nos lo paso lo tuve que poner yo */
+            },
+        },
+    },
+}
+//Texto en Español de la alerta
 
 const textoZumba = ["El movimiento te da vida, mueve la energía que se estanca y la pone en circulación.", "Bailar es moverse de manera divertida. Cuanto más te movés, más sentís. Se van despertando todos tus sentidos.Al bailar te conectas con el momento presente.", "Bailar es un medio para apagar la mente. Conectas con el cuerpo y su sensualidad. ", "Zumba activa tu ALEGRÍA y DIVERSIÓN, enciende tu LUZ INTERNA.", "Zumba es una herramienta que trae conciencia acerca   la experiencia física. Al bailar, le das a tu cuerpo un regalo y lo despertas. Cada clase ofrece un espacio de JUEGO. Se experimenta cómo, al conectar con el Cuerpo y con el momento presente, el espíritu encuentra ese medio propicio para FLUIR y expresarse.", "Zumba es un medio para liberar tu alma y expandir todo tu SER.", "EN RELACIÓN A LA CLASE:", "La clase de Zumba consiste en disfrutar los ritmos de 10-15 canciones diferentes, combinando en su mayoría música latina (Cumbia, Reggetón, ritmos brasileños, etcétera), también POP. Cada canción tiene su coreografía, pasos simples y fáciles de seguir y de aprender en el momento. La intención es que sea una clase dinámica y llena de energía; que puedas transpirar y sentir que tu cuerpo está haciendo ejercicio pero de una manera MUY divertida. Que puedas conectarte con esa atmósfera de Juego en donde no hay Bien ni Mal, solamen  te diversión y conexión con el momento presente. Nada más importa. Solamente tu energía creativa de ese momento", "Y qué pasa si no podés seguir los pasos? Te invito a que te rías y sigas moviéndote, a que sigas bailando. ¿Acaso LA VIDA  no se trata de eso?", "Al finalizar la clase, podrás experimentar cómo tu ritmo cardíaco se eleva y te empapas de sudor. Experimentas cómo se liberan tus hormonas conectadas con el placer, la felicidad y el bienestar, como la endorfina y la serotonina. Verás cómo, automáticamente, tu mente se apaga y ya los problemas parecen más pequeños; porque se siente esa vibración. Serás consciente de cómo el cuerpo y tu Ser completo, ya han cambiado su estado vibracional. ", "Zumba te conecta con tu más ALTA VIBRACIÓN."]
 
@@ -9,7 +62,9 @@ const textoYoga = ["Yoga es UNIÓN. Trae consciencia acerca de la conexión entr
 
 const textoMeditacion = ["La meditación consiste en conectar con el propio ritmo de respiración. Invita a la persona a ponerse en un lugar de observador de sí mismo: observar sus pensamientos, emociones y sensaciones, pero sin involucrarse. Adquirir el papel de espectador de sí mismo, como si estuviera viendo una película.", "La intención en la meditación, es poder mantener un estado de neutralidad con todo aquello que se va viendo de un@ mism@", "La meditación se ve beneficiada cuando se inicia con pequeños ejercicios de Pranayama (control de la energía vital, por medio de la respiración), que invitan al cerebro a la calma necesaria para adquirir ese rol de espectador. Puede también ir acompañada por simples ejercicios de Visualización.", "Pero sobre todo, el foco está puesto en que, al adquirir un rol de observador, cada persona pueda apropiarse de esa calma que ya vive dentro suyo.", "EN RELACIÓN A LA CLASE:", "Luego de vivenciar el Yoga como una preparación de todo tu SER para experimentar esa UNIÓN, ya estás list@ para el último nivel de conexión al cual accedes en esta mágica propuesta: la Meditación.", "Se te propone cerrar los ojos e integrar la experiencia YOGUMBA a tu ser y a toda tu vida", "Se te invita a conectar con la Quietud y el Silencio, utilizando la respiración como el ANCLA que te trae nuevamente a Eje y mantiene tu foco en el presente", "Vas sintiendo cómo esas aguas, que ya se han ido purificado con el baile y el yoga, ahora se van calmando y retornando a su fuente, conectándote con TU FUENTE. Y es desde este estado final de CONEXIÓN en el cual la GRATITUD sale a luz. Porque, una vez alcanzado este máximo estado de CONEXIÓN que regala la experiencia YOGUMBA, te das cuenta de que ya no necesitas nada del mundo externo. Al haber tomado consciencia de LA FUENTE que vive en vos, recordas QUIÉN SOS. Y es en este estado en el que un profundo “GRACIAS” se expande desde tu corazón", "Así queremos que finalices la experiencia YOGUMBA: en un estado de completa GRATITUD."]
 
-//Alerts en español
+//Texto en ingles de la alerta
+
+//Alertas
 const zumba = () =>{
     // Genera el html
     const div = document.createElement("div");

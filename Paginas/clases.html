@@ -8,10 +8,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/kaufmann-bt" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./../CSS/app.css">
     <link rel="stylesheet" type="text/css" href="./../CSS/estiloAndres.css">
     <title>Clases - Yogumba</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../index.html" class="nav-link"><img src="/imagenes/logo.png" alt=""></a>
+            <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="../index.html" class="nav-menu-link nav-link">HOME</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./quienesSomos.html" class="nav-menu-link nav-link">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./galeria.html" class="nav-menu-link nav-link">GALERIA</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./blog.html" class="nav-menu-link nav-link nav-menu-link_active">BLOG</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./clases.html" class="nav-menu-link nav-link">CLASES</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./contacto.html" class="nav-menu-link nav-link">CONTACTO</a>
+                </li>
+                <li class="nav-menu-item">
+                <img  src="./../imagenes/us.svg" id="flagUS" class="nav-menu-link nav-link"></img>
+                </li>
+                <li class="nav-menu-item">
+                    <img src="./../imagenes/es.svg" id="flagES" class="nav-menu-link nav-link"></img>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section id="clasesSection1">
         <h2 id="clasesTitulo1">¿Queres Formar parte de YOGUMBA?</h2>
     </section>
@@ -19,9 +52,11 @@
         <img src="https://drive.google.com/uc?export=view&id=1SlACArMvTBYEA3ZlsuiwkDQpqF7Ly1ur" alt="Clases">
         <div>
             <h2>Experiencia presencial</h2>
-            <p>Horario: Lunes 6.45pm-8pm.</p>
-            <p>Dirección: 1 Acacia Street, Industrial Area, Byron Bay 2481 NSW, Australia.</p>
-            <p>Contamos con la colaboración de Rochi (Instructora de Zumba Registrada, Miembro ZIN)</p>
+            <div id="clasesContenedorDesc">
+                <p>Horario: Lunes 6.45pm-8pm.</p>
+                <p>Dirección: 1 Acacia Street, Industrial Area, Byron Bay 2481 NSW, Australia.</p>
+                <p>Contamos con la colaboración de Rochi (Instructora de Zumba Registrada, Miembro ZIN)</p>
+            </div>
             <img src="./../Yogumba clases.png" alt="Que estas esperando para venir">
         </div>
     </section>
@@ -32,5 +67,25 @@
         </div>
         <!-- Eto sería un video/img que no recibimos <img src="" alt=""> -->
     </section>
+    <!----------------FOOTER---------------->
+    <div id="lastSection">
+        <div class="footer">
+            <img src="../imagenes/logo.png" alt="logo">
+        </div>
+        <div class="footerNav">
+            <a href="../index.html">HOME </a> 
+            <a href="./quienesSomos.html"> QUIENES SOMOS</a>
+            <a href="./galeria.html">GALERIA</a>
+            <a href="./clases.html">CLASES</a>
+            <a href="./blog.html">BLOG</a>
+            <a href="./contacto.html">CONTACTO</a>
+        </div>
+        <p class="FinText">Gracias por recorrer mi pagina</p>
+        <div class="barraFinal">
+            <p>Terminos y condiciones</p>
+            <p>Copyright @2022   |   All rights reserved</p>
+        </div>
+    </div>
+    <!----------------FIN FOOTER---------------->
 </body>
 </html>

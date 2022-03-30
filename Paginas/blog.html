@@ -8,9 +8,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./../CSS/estiloAndres.css">
+    <link rel="stylesheet" type="text/css" href="./../CSS/app.css">
     <title>Blog - Yogumba</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../index.html" class="nav-link"><img src="/imagenes/logo.png" alt=""></a>
+            <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="../index.html" class="nav-menu-link nav-link">HOME</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./quienesSomos.html" class="nav-menu-link nav-link">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./galeria.html" class="nav-menu-link nav-link">GALERIA</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./blog.html" class="nav-menu-link nav-link nav-menu-link_active">BLOG</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./clases.html" class="nav-menu-link nav-link">CLASES</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./contacto.html" class="nav-menu-link nav-link">CONTACTO</a>
+                </li>
+                <li class="nav-menu-item">
+                <img  src="./../imagenes/us.svg" id="flagUS" class="nav-menu-link nav-link"></img>
+                </li>
+                <li class="nav-menu-item">
+                    <img src="./../imagenes/es.svg" id="flagES" class="nav-menu-link nav-link"></img>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="blogSection1">
             <h2 id="bogPrimerHeader">Compartamos nuestra sabiduria</h2>
@@ -23,27 +56,53 @@
             <article class="blogContenedorCartas">
                 <div class="blogCarta" id="cartaZumba">
                     <img src="https://drive.google.com/uc?export=view&id=1rxZF4s1BvGGjgn6agrglAefp4i9RX3R_" alt="Zumba">
-                    <h3>Zumba</h3>
-                    <p>Zumba es una herramienta que trae conciencia acerca de la experiencia física. Al bailar, le das a tu cuerpo un regalo y lo despertas.</p>
+                    <h3 id="zumbaTitulo">Zumba</h3>
+                    <span id="zumbaDesc">
+                        <p>Zumba es una herramienta que trae conciencia acerca de la experiencia física. Al bailar, le das a tu cuerpo un regalo y lo despertas.</p>
+                    </span>
                     <div><button id="botonZumba" ><span>Ver más</span></button></div>
                 </div>
                 <div class="blogCarta" id="cartaYoga">
                     <img src="https://drive.google.com/uc?export=view&id=1Wjc2okSfZByFP7VovviH2Z1Q1_weBp2l" alt="Yoga">
-                    <h3>Yoga</h3>
-                    <p>Yoga es UNIÓN. Trae consciencia acerca de la conexión entre el cuerpo y la espiritualidad.</p>
-                    <p>Es un viaje de CONCIENCIA y CONEXIÓN.</p>
+                    <h3 id="yogaTitulo">Yoga</h3>
+                    <span id="yogaDesc">
+                        <p>Yoga es UNIÓN. Trae consciencia acerca de la conexión entre el cuerpo y la espiritualidad.</p>
+                        <p>Es un viaje de CONCIENCIA y CONEXIÓN.</p>
+                    </span>
                     <div><button id="botonYoga" ><span>Ver más</span></button></div>
                 </div>
                 <div class="blogCarta" id="cartaMeditacion">
                     <img src="https://drive.google.com/uc?export=view&id=1C37lwc2og38Mpa4kxlTplBy3qOMoqhbn" alt="">
-                    <h3>Meditación</h3>
-                    <p>La meditación consiste en conectar con el propio ritmo de respiración.</p>
-                    <p>La intención, es poder mantener un estado de neutralidad con todo aquello que se va viendo de un@ mism@.</p>
+                    <h3 id="meditaciónTitulo">Meditación</h3>
+                    <span id="meditacionDesc">
+                        <p>La meditación consiste en conectar con el propio ritmo de respiración.</p>
+                        <p>La intención, es poder mantener un estado de neutralidad con todo aquello que se va viendo de un@ mism@.</p>
+                    </span>
                     <div><button id="botonMeditacion" ><span>Ver más</span></button></div>
                 </div>
             </article>
         </section>
     </main>
+    <!----------------FOOTER---------------->
+    <div id="lastSection">
+        <div class="footer">
+            <img src="../imagenes/logo.png" alt="logo">
+        </div>
+        <div class="footerNav">
+            <a href="../index.html">HOME </a> 
+            <a href="./quienesSomos.html"> QUIENES SOMOS</a>
+            <a href="./galeria.html">GALERIA</a>
+            <a href="./clases.html">CLASES</a>
+            <a href="./blog.html">BLOG</a>
+            <a href="./contacto.html">CONTACTO</a>
+        </div>
+        <p class="FinText">Gracias por recorrer mi pagina</p>
+        <div class="barraFinal">
+            <p>Terminos y condiciones</p>
+            <p>Copyright @2022   |   All rights reserved</p>
+        </div>
+    </div>
+    <!----------------FIN FOOTER---------------->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="./../Javascript/Blog.js"></script>
 </body>

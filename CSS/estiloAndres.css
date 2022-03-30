@@ -398,7 +398,6 @@ body{
 /* Contacto */
 
 #contactoSectionContacto{
-    position: absolute;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFF1EF 100%), url("https://drive.google.com/uc?export=view&id=1hbRr7dUQcfsLEx6sep3CX6moxmkLIgSO");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -491,7 +490,7 @@ body{
     background: #FAF9FA;
     box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.34);
     border-radius: 21px;
-    width: 91%;
+    width: 100%;
     padding: 4.46%;
     border: none;
 }
