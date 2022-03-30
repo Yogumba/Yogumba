@@ -18,6 +18,11 @@ body{
 #quienesBody{
     background: #E5E5E5;
 }
+#quienesBody section{
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
 #quienesSection1{
     width: 100%;
     height: 1001px;
@@ -149,6 +154,7 @@ body{
     line-height: 40px;
     /* or 133% */
     color: #1F1E22;
+    padding-right: 2.5%;
 }
 #quienesAustralia, #quienesIndia, #quienesPresente{
     display: flex;
@@ -162,11 +168,42 @@ body{
     width: 780px;
     margin: 30px;
 }
+@media only screen and (max-width: 1900px){
+    #quienesSection1{
+        width: 100%;
+        height: auto;
+        padding-bottom: 4.8%;
+        background-position: center 0%;
+        min-height: 500px;
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 5%;
+    }
+    #quienesContenedor{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #quienesImg1{
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        max-height: 542px;
+    }
+    .quienesImg{
+        width: 100%;
+        height: auto;
+    }
+    #quienesAustralia, #quienesIndia, #quienesPresente{
+        flex-direction: column;
+    }
+}
 /* Blog */
 .blogSection1{
     background-image: url("https://drive.google.com/uc?export=view&id=17SxOSt7SfuRRZ-WlITumeGx6moD_bimM");
     width: 100%;
     height: 1009px;
+    padding-top: 155px;
 }
 .blogSection2{
     background: linear-gradient(180deg,rgba(147, 126, 243, 0.4) 0%, rgba(255, 241, 239, 0.4) 100%);
@@ -183,7 +220,6 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-left: 5%;
-    padding-top: 155px;
     padding-bottom: 28px;
 }
 #blogPrimerDesc{
@@ -207,6 +243,7 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     padding-top: 103px;
+    margin-bottom: 50px;
 }
 #blogSegundaDesc{
     font-family: 'Helvetica Now Text ';
@@ -223,6 +260,7 @@ body{
 .blogContenedorCartas{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 #cartaZumba{
     margin-right: 64px;
@@ -266,11 +304,36 @@ body{
 }
 .blogCarta button{
     background: #FFFFFF;
+    height: 54px;
+    width: 270px;
+    border-radius: 20px;
+}
+.blogCarta button span{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 130% */
+    text-align: center;
+
+    background: linear-gradient(180deg, #7FCFA7 39.66%, #5C9578 68.1%, #006835 68.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-radius: 20px;
+    padding: 0;
+}
+.blogCarta div{
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);;
     box-shadow: 0px 8px 16px rgba(92, 149, 120, 0.5);
     height: 58px;
     width: 274px;
     border-radius: 20px;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sweetBlog{
     background: linear-gradient(180deg, #FFFFFF 0%, #EBFFEE 100%);
@@ -312,6 +375,26 @@ body{
     -webkit-border-radius: 40px !important;
     -moz-border-radius: 40px !important;
     border-radius: 40px !important; }
+
+@media only screen and (max-width: 1700px){
+    .blogSection1{
+        width: 100%;
+        height: auto;
+        padding-bottom: 4.8%;
+        background-position: center 0%;
+        min-height: 500px;
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .blogContenedorCartas{
+        flex-direction: column;
+    }
+    .blogCarta{
+        margin-bottom: 5%;
+    }
+}
 /* Contacto */
 
 #contactoSectionContacto{
@@ -430,4 +513,115 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 15px;
+}
+
+/* Clases */
+#clasesSection1{
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50.03%), url("https://drive.google.com/uc?export=view&id=1USjG49fcdw31dd8Vo-TnkUtxjzvfWwmp");
+    width: 100%;
+    height: 710px;
+    padding-top: 15%;
+    padding-left: 10%;
+    /* background-position: center 0%; */
+}
+#clasesTitulo1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+#clasesSection2{
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBFFEE 100%);
+    box-shadow: 0px 4px 34px rgba(127, 207, 167, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+#clasesSection2 div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clasesSection2 div h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #7FCFA7 11.72%, #5C9578 92.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 5%;
+}
+#clasesSection2 div p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+    color: #006835;
+}
+#clasesSection2 div img{
+    width: 100%;
+}
+#clasesSection2 img {
+    max-width: 100%;
+}
+#clasesSection3{
+    background: #E5E5E5;
+    padding: 10%;
+}
+#clasesSection3 h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #7FCFA7 11.72%, #5C9578 92.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+#clasesSection3 p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+    color: #006835;
+    text-align: center;
+}
+@media only screen and (max-width: 1900px){
+    #clasesTitulo1{
+        max-width: 100%;
+        text-align: center;
+    }
+    #clasesSection1{
+        background-position: center 0%;
+        height: auto;
+        min-height: 600px;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    #clasesSection2{
+        flex-direction: column;
+    }
+    #clasesSection2 div{
+        width: 100%;
+        padding: 2.5%;
+    }
 }
