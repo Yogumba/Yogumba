@@ -1,3 +1,6 @@
+// Variables
+let lang
+
 /* Textos */
 const quienesEsp = {
     section1:{
@@ -53,3 +56,80 @@ const quienesEng = {
     },
     gracias: "Thanks",
 }
+/* Funciones */ 
+const quienesLenguaje = ()=>{
+    console.log(lenguaje)
+    let text
+    if(lenguaje === "eng"){
+        text = quienesEng
+    } else if(lenguaje === "esp"){
+        text = quienesEsp
+    }
+    localStorage.setItem("lenguaje", "esp")
+    document.getElementById("quienesPrimerHeader").innerText = text.section1.primerHeader
+    document.getElementById("quienesContenedorDesc1").innerHTML = ""
+    for(let i = 0; i<text.section1.contenedorDesc1.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section1.contenedorDesc1[i]
+        document.getElementById("quienesContenedorDesc1").appendChild(p)
+    }
+    document.getElementById("quienesBoton1").innerHtml = text.section1.boton1
+    document.getElementById("quienesHeader2").innerText = text.section2.segundoHeader
+    document.getElementById("quienesDesc2").innerText = text.section2.segundaDesc
+    document.getElementById("headerOlvidado").innerText = text.section2.headerOlvidado
+    document.getElementById("quienesContenedorDesc3").innerHTML = ""
+    for(let i = 0; i<text.section2.contenedorDesc3.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section2.contenedorDesc3[i]
+        document.getElementById("quienesContenedorDesc3").appendChild(p)
+    }
+    document.getElementById("quienesContenedorDesc4").innerHTML = ""
+    for(let i = 0; i<text.section2.contenedorDesc4.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section2.contenedorDesc4[i]
+        document.getElementById("quienesContenedorDesc4").appendChild(p)
+    }
+    document.getElementById("tituloAustralia").innerText = text.section3.tituloAustralia
+    document.getElementById("descAustralia").innerHTML = ""
+    for(let i = 0; i<text.section3.contenedorDescAustralia.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section3.contenedorDescAustralia[i]
+        document.getElementById("descAustralia").appendChild(p)
+    }
+    document.getElementById("tituloIndia").innerText = text.section4.tituloIndia
+    document.getElementById("descIndia").innerHTML = ""
+    for(let i = 0; i<text.section4.contenedorDescIndia.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section4.contenedorDescIndia[i]
+        document.getElementById("descIndia").appendChild(p)
+    }
+    document.getElementById("tituloPresente").innerText = text.section5.tituloPresente
+    document.getElementById("descPresente").innerHTML = ""
+    for(let i = 0; i<text.section5.contenedorDescPresente.length; i++){
+        let p = document.createElement("p")
+        p.innerText = text.section5.contenedorDescPresente[i]
+        document.getElementById("descPresente").appendChild(p)
+    }
+    document.getElementById("Gracias").innerText = text.gracias
+
+
+}
+//Click a las Banderas
+document.getElementById("flagUS").onclick = ()=>{
+    lenguaje = "eng"
+    localStorage.setItem("lenguaje", "eng")
+    quienesLenguaje()
+}
+document.getElementById("flagES").onclick = ()=>{
+    lenguaje = "esp"
+    localStorage.setItem("lenguaje", "esp")
+    quienesLenguaje()
+}
+
+/*  Local Storage  */
+if (localStorage.getItem("lenguaje") == null) {
+    localStorage.setItem("lenguaje", "esp")
+} else {
+    lenguaje = localStorage.getItem("lenguaje");
+}
+quienesLenguaje()

@@ -80,6 +80,10 @@ a img {
   cursor: pointer;
   display: none;
 }
+.flag{
+  width: 40px;
+  margin-top: 20px;
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -292,7 +296,6 @@ a img {
 }
 
 #carrusel {
-  background-image: url(./imagenes/rerer.png);
   background-position: cover;
   background-repeat: no-repeat;
 }
