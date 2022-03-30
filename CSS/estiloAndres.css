@@ -325,10 +325,11 @@ body{
     margin-right: 4.2%;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
     text-align: center;
     color: #A1AEB7;
+    margin-bottom: 0;
 }
 .blogCarta button{
     background: #FFFFFF;
