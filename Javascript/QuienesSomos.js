@@ -27,7 +27,7 @@ const quienesEsp = {
         tituloPresente: "Mi presente",
         contenedorDescPresente: ["El camino hacia mi Expansión sigue ocurriendo, y seguirá por el resto de mi vida. Pero me alegra el alma, en este momento, sentir que cada paso que doy me conecta con seguir explotando todos mis talentos y pasiones, manteniendo mi fuego interno encendido, y buscando cada vez nuevas maneras de poder expresarme.", "Mi intención es compartir con vos algunas de las herramientas que más han generado impacto en mi vida, y que a su vez son mis tres grandes pasiones: Zumba, Yoga y Meditación. Son, para mí, herramientas súper poderosas para conectarnos con la Vida, con la Paz y con el Disfrute.", "Espero que puedas aprovecharlas tanto como yo lo hice."],
     },
-    gracias: "Thanks",
+    gracias: "Gracias",
 }
 const quienesEng = {
     section1:{
