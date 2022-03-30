@@ -138,9 +138,6 @@ a img {
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
-  .banner-card {
-    display: none;
-  }
 }
 
 .banner-card {
@@ -159,6 +156,16 @@ a img {
   padding: 10px;
 }
 
+@media (max-width: 768px) {
+  .banner-text {
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    padding: 10px;
+  }
+}
+
+
 .title {
   font-family: 'Ubuntu';
   font-style: normal;
@@ -169,6 +176,20 @@ a img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500 medium;
+    font-size: 27px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7FCFA7), to(#5C9578));
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .title2 {
@@ -182,6 +203,18 @@ a img {
   letter-spacing: 0px;
 }
 
+@media (max-width: 768px) {
+  .title2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 900, bolder;
+    font-size: 14px;
+    padding-top: 20%;
+    color: #1F1E22;
+    letter-spacing: 0px;
+  }
+}
+
 .title3 {
   font-family: 'Ubuntu';
   /* PONER*/
@@ -190,6 +223,11 @@ a img {
   font-size: 15px;
   padding-top: 2%;
   color: #1F1E22;
+}
+@media (max-width: 768px) {
+  .title3{
+    display: none;
+  }
 }
 
 .title4 {
@@ -202,6 +240,8 @@ a img {
   color: #1F1E22;
 }
 
+
+
 .title6 {
   font-family: 'Ubuntu';
   /* PONER*/
@@ -210,7 +250,11 @@ a img {
   font-size: 15px;
   color: #1F1E22;
 }
-
+@media (max-width: 768px) {
+  .title6{
+    display: none;
+  }
+}
 .title5 {
   background: -webkit-gradient(linear, left top, left bottom, from(#7FCFA7), to(#5C9578));
   background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
@@ -231,6 +275,30 @@ a img {
   width: 150px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .title5 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#7FCFA7), to(#5C9578));
+    background: linear-gradient(180deg, #7FCFA7 0%, #5C9578 100%);
+    border-radius: 40px;
+    position: absolute;
+    left: 65%;
+    top: 75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    border: none;
+    margin: 5px;
+    text-decoration: none;
+    height: 27px;
+    -webkit-box-shadow: 5px 6px 10px rgba(1, 6, 0, 0.4);
+            box-shadow: 5px 6px 10px rgba(1, 6, 0, 0.4);
+    width: 100px;
+    cursor: pointer;
+  }
+}
+
 
 .titleCarousel {
   padding-top: 3%;
@@ -260,15 +328,15 @@ a img {
 
 @media (max-width: 768px) {
   .titleCarousel .textCarousel1 {
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 450px) {
   .titleCarousel .textCarousel1 {
-    font-size: 26px;
+    font-size: 21px;
     position: relative;
-    left: 10%;
+    left: 2px;
   }
 }
 
@@ -291,7 +359,14 @@ a img {
 
 @media (max-width: 450px) {
   .titleCarousel .textCarousel2 {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #585858;
+    padding-top: 0%;
+    margin: 10px;
   }
 }
 
@@ -454,7 +529,7 @@ a img {
 
 @media (max-width: 768px) and (max-width: 450px) {
   .queEs .queEsText {
-    bottom: 30%;
+    bottom: 42%;
     left: 23%;
   }
 }
@@ -572,7 +647,7 @@ a img {
 @media (max-width: 768px) {
   .infoyvideos .videos {
     left: 19%;
-    bottom: -134%;
+    bottom: -104%;
     font-size: 10px;
     height: 16px;
     width: 75px;
@@ -581,7 +656,7 @@ a img {
 
 @media (max-width: 450px) {
   .infoyvideos .videos {
-    bottom: -10%;
+    bottom: 6%;
   }
 }
 
@@ -618,7 +693,7 @@ a img {
 
 @media (max-width: 450px) {
   .infoyvideos .informacion {
-    bottom: -10%;
+    bottom: 6%;
   }
 }
 
@@ -654,7 +729,8 @@ a img {
 
 @media (max-width: 768px) {
   .nuestraComunidad .titleComunidad {
-    font-size: 32px;
+    font-size: 27px;
+    padding: 10px;
   }
 }
 
@@ -752,6 +828,13 @@ a img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) -7.63%, rgba(255, 241, 239, 0.6) 100%);
   padding-top: 5%;
   height: 630px;
+}
+
+@media (max-width: 450px) {
+  .loMejorYogumba {
+    padding-top: 190%;
+    height: 1360px;
+  }
 }
 
 .loMejorYogumba .titleLoMejor {
