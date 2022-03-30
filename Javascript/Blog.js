@@ -178,14 +178,12 @@ const meditacion = ()=>{
 }
 
 const blogLenguaje = ()=>{
-    console.log(lenguaje)
     let text
     if(lenguaje === "eng"){
         text = blogEng
     } else if(lenguaje === "esp"){
         text = blogEsp
     }
-    localStorage.setItem("lenguaje", "esp")
     document.getElementById("bogPrimerHeader").innerText = text.section1.primerHeader
     document.getElementById("blogPrimerDesc").innerText = text.section1.primerDesc
     document.getElementById("blogSegundoHeader").innerText = text.section2.segundoHeader
@@ -226,6 +224,7 @@ document.getElementById("flagES").onclick = ()=>{
 
 /*  Local Storage  */
 if (localStorage.getItem("lenguaje") == null) {
+    console.log(localStorage.getItem("lenguaje"))
     localStorage.setItem("lenguaje", "esp")
 } else {
     lenguaje = localStorage.getItem("lenguaje");

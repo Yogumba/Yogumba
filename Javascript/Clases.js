@@ -27,7 +27,6 @@ const clasesLenguaje = ()=>{
     } else if(lenguaje === "esp"){
         text = clasesEsp
     }
-    localStorage.setItem("lenguaje", "esp")
     document.getElementById("clasesTitulo1").innerText = text.titulo1
     document.getElementById("clasesTitulo2").innerText = text.titulo2
     document.getElementById("clasesContenedorDesc").innerHTML = ""

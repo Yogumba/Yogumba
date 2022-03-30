@@ -34,8 +34,6 @@ const contactoLenguaje = ()=>{
     } else if(lenguaje === "esp"){
         text = contactoEspanol
     }
-    console.log(text)
-    localStorage.setItem("lenguaje", "esp")
     document.getElementById("contactoHeaderPrincipal").innerText = text.headerPrincipal
     document.getElementById("contactoHeaderSecundario").innerText = text.headerSecundario
     document.getElementById("contactoDescripcionSecundaria").innerText = text.descripcionSecundaria

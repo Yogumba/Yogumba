@@ -65,7 +65,6 @@ const quienesLenguaje = ()=>{
     } else if(lenguaje === "esp"){
         text = quienesEsp
     }
-    localStorage.setItem("lenguaje", "esp")
     document.getElementById("quienesPrimerHeader").innerText = text.section1.primerHeader
     document.getElementById("quienesContenedorDesc1").innerHTML = ""
     for(let i = 0; i<text.section1.contenedorDesc1.length; i++){

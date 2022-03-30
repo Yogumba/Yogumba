@@ -422,6 +422,13 @@ body{
     }
     .blogCarta{
         margin-bottom: 5%;
+        max-width: 90vw;
+    }
+    #cartaZumba, #cartaYoga{
+        margin-right: 0;
+    }
+    #cartaMeditacion{
+        height: 650px;
     }
 }
 /* Contacto */
