@@ -694,8 +694,8 @@ a img {
   /* padding-top: 155px; */
   background-position:center;
   margin-right: 2.5%;
-  padding-bottom: 15%;
-  padding-top: 15%;
+  padding-bottom: 16%;
+  padding-top: 16%;
 }
 #infoImg2{
   background-image: url("./../imagenes/imagen\ información.png");
@@ -714,6 +714,12 @@ a img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1600px) {
+  #infoImg1, #infoImg2{
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
 }
 @media (max-width: 500px) {
   #infoImg1, #infoImg2{
