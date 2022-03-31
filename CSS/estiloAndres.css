@@ -713,3 +713,13 @@ body{
         height: 600px;
     }
 }
+@media (max-width: 450px) {
+    .footerNav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer img{
+        width: 100%;
+    }
+    
+}

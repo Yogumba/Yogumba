@@ -124,11 +124,8 @@ const indexLenguaje = ()=>{
     document.getElementById("desc15").innerText = text.desc15
     document.getElementById("desc16").innerText = text.desc16
     document.getElementById("desc17").innerText = text.desc17
-    document.getElementById("tit4").innerText = text.tit4
     document.getElementById("desc18").innerText = text.desc18
-    document.getElementById("tit5").innerText = text.tit5
     document.getElementById("desc19").innerText = text.desc19
-    document.getElementById("tit6").innerText = text.tit6
     document.getElementById("desc20").innerText = text.desc20
 
 
