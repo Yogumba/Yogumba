@@ -687,3 +687,22 @@ body{
         text-align: center;
     }
 }
+/* Galeria */
+.galImg{
+    position: absolute;
+    width: 100%;
+}
+#viejoFix{
+    position: relative;
+    top: 0;
+    display: block;
+}
+#viejoFix2{
+    width: 100%;
+}
+@media (max-width: 1080px) {
+    .galImg{
+        width: auto;
+        height: 600px;
+    }
+}

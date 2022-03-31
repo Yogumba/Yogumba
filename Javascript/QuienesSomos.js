@@ -5,7 +5,7 @@ let lang
 const quienesEsp = {
     section1:{
         primerHeader: "Del Meneo a un OM",
-        contenedorDesc1: ["YOGUMBA te regala UNIÓN: dentro tuyo, para que puedas integrar tus experiencias mente-cuerpo-alma, junto con tus luces y tus sombras. Esta Unión te devuelve a tu eje  y eleva tu vibración. Es cuando logras conectarte vos mism@, que podes experimentar una Unión más amplia, con todos los seres y, en definitiva, con el Universo entero.", "Te conectas con el amor universal, que nace y vive dentro tuyo. Y todo comienza conectándote con tu cuerpo y su movimiento, poniendo play a esa música que hace vibrar tu alma, y termina con un momento único de relajación e integración"],
+        contenedorDesc1: ["YOGUMBA empieza bailando, moviendo tu cuerpo al ritmo de canciones divertidas y elevando tu estado emocional a un 100%; con Zumba vas a activar la música de tu alma.", "La clase termina con un momento único de relajación e integración, regalándote UNION dentro tuyo, para que puedas conectar tus experiencias mente-cuerpo-alma."],
         boton1: "Te invito a conocerme",
     },
     section2: {
@@ -32,7 +32,7 @@ const quienesEsp = {
 const quienesEng = {
     section1:{
         primerHeader: "START WITH A WIGGLE, END WITH AN OM",
-        contenedorDesc1: ["Yogumba offers you union: within you, so that you can integrate your mind-body-soul experiences, along with your lights and shadows. This union brings you back to your own axis and raises your vibration.", "It is when you manage to connect with yourself that you can experience a broader union, with all beings and in ultimately with the entire universe.", "You connect with the universal love that is born and lives within you. And it all begins by connecting with your body and its movement, by putting play to that music that makes your soul vibrate, and ends with a unique moment of relaxation and integration."],
+        contenedorDesc1: ["YOGUMBA begins with dancing, moving your body to the rhythm of fun songs and elevating your emotional state to 100%;", "With Zumba you will activate the music of your soul. ", "he class ends with a unique moment of relaxation and integration, giving you UNION within you, so that you can connect your mind-body-soul experiences."],
         boton1: "Come meet me", /* No nos lo paso lo tuve que poner yo */
     },
     section2: {
@@ -58,7 +58,7 @@ const quienesEng = {
 }
 /* Funciones */ 
 const quienesLenguaje = ()=>{
-    console.log(lenguaje)
+    headFoot()
     let text
     if(lenguaje === "eng"){
         text = quienesEng
@@ -113,6 +113,36 @@ const quienesLenguaje = ()=>{
 
 
 }
+/* Header y Footer */
+const esp ={
+    quienes: "QUIENES SOMOS",
+    galeria: "GALERIA",
+    clases: "CLASES",
+    contacto: "CONTACTO",
+}
+const eng ={
+    quienes: "ABOUT US",
+    galeria: "GALLERY",
+    clases: "CLASSES",
+    contacto: "CONTACT",
+}
+const headFoot = ()=>{
+    let texto
+    if(lenguaje === "esp"){
+        texto = esp
+    } else if(lenguaje === "eng"){
+        texto = eng
+    }
+    document.getElementById("headerQuienes").innerText=texto.quienes
+    document.getElementById("footerQuienes").innerText=texto.quienes
+    document.getElementById("headerGaleria").innerText=texto.galeria
+    document.getElementById("footerGaleria").innerText=texto.galeria
+    document.getElementById("headerClases").innerText=texto.clases
+    document.getElementById("footerClases").innerText=texto.clases
+    document.getElementById("headerContacto").innerText=texto.contacto
+    document.getElementById("footerContacto").innerText=texto.contacto
+}
+/* Header y Footer END*/
 //Click a las Banderas
 document.getElementById("flagUS").onclick = ()=>{
     lenguaje = "eng"

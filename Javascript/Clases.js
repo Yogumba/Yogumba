@@ -20,7 +20,7 @@ const clasesEng = {
 }
 /* Funciones */ 
 const clasesLenguaje = ()=>{
-    console.log(lenguaje)
+    headFoot()
     let text
     if(lenguaje === "eng"){
         text = clasesEng
@@ -40,6 +40,36 @@ const clasesLenguaje = ()=>{
     document.getElementById("clasesDesc1").innerText = text.desc1
 
 }
+/* Header y Footer */
+const esp ={
+    quienes: "QUIENES SOMOS",
+    galeria: "GALERIA",
+    clases: "CLASES",
+    contacto: "CONTACTO",
+}
+const eng ={
+    quienes: "ABOUT US",
+    galeria: "GALLERY",
+    clases: "CLASSES",
+    contacto: "CONTACT",
+}
+const headFoot = ()=>{
+    let texto
+    if(lenguaje === "esp"){
+        texto = esp
+    } else if(lenguaje === "eng"){
+        texto = eng
+    }
+    document.getElementById("headerQuienes").innerText=texto.quienes
+    document.getElementById("footerQuienes").innerText=texto.quienes
+    document.getElementById("headerGaleria").innerText=texto.galeria
+    document.getElementById("footerGaleria").innerText=texto.galeria
+    document.getElementById("headerClases").innerText=texto.clases
+    document.getElementById("footerClases").innerText=texto.clases
+    document.getElementById("headerContacto").innerText=texto.contacto
+    document.getElementById("footerContacto").innerText=texto.contacto
+}
+/* Header y Footer END*/
 //Click a las Banderas
 document.getElementById("flagUS").onclick = ()=>{
     lenguaje = "eng"

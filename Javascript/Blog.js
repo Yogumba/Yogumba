@@ -38,7 +38,7 @@ const blogEng = {
         cartas: {
             zumba: {
                 titulo: "ZUMBA",
-                desc: ["Yoga is UNION. It brings us awareness of the connection between our body and spirituality. It is a trip towards CONSCIOUSNESS and CONNECTION."],
+                desc: ["Zumba es una herramienta que trae conciencia acerca de la experiencia física. Al bailar, le das a tu cuerpo un regalo y lo despertas."],
                 boton: "View more", /* No nos lo paso lo tuve que poner yo */
             },
             yoga: {
@@ -178,6 +178,7 @@ const meditacion = ()=>{
 }
 
 const blogLenguaje = ()=>{
+    headFoot()
     let text
     if(lenguaje === "eng"){
         text = blogEng
@@ -221,6 +222,42 @@ document.getElementById("flagES").onclick = ()=>{
     localStorage.setItem("lenguaje", "esp")
     blogLenguaje()
 }
+/* Header y Footer */
+const esp ={
+    quienes: "QUIENES SOMOS",
+    galeria: "GALERIA",
+    clases: "CLASES",
+    contacto: "CONTACTO",
+    gracias: "Gracias por recorrer mi pagina",
+    terminos: "Terminos y condiciones",
+}
+const eng ={
+    quienes: "ABOUT US",
+    galeria: "GALLERY",
+    clases: "CLASSES",
+    contacto: "CONTACT",
+    gracias: "Thanks for visiting my page",
+    terminos: "Terms and conditions",
+}
+const headFoot = ()=>{
+    let texto
+    if(lenguaje === "esp"){
+        texto = esp
+    } else if(lenguaje === "eng"){
+        texto = eng
+    }
+    document.getElementById("headerQuienes").innerText=texto.quienes
+    document.getElementById("footerQuienes").innerText=texto.quienes
+    document.getElementById("headerGaleria").innerText=texto.galeria
+    document.getElementById("footerGaleria").innerText=texto.galeria
+    document.getElementById("headerClases").innerText=texto.clases
+    document.getElementById("footerClases").innerText=texto.clases
+    document.getElementById("headerContacto").innerText=texto.contacto
+    document.getElementById("footerContacto").innerText=texto.contacto
+    document.getElementById("footerGracias").innerText=texto.gracias
+    document.getElementById("footerTerminos").innerText=texto.terminos
+}
+/* Header y Footer END*/
 
 /*  Local Storage  */
 if (localStorage.getItem("lenguaje") == null) {

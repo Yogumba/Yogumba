@@ -1162,33 +1162,33 @@ a img {
 .item1 {
   height: 270px;
   width: 420px;
-  background-image: url("/primersilde.png");
+  background-image: url("./../imagenes/primersilde.png");
   background-size: cover;
 }
 
 .item2 {
-  background-image: url("/segundosilde.png");
+  background-image: url("./../imagenes/segundosilde.png");
   background-size: cover;
   height: 270px;
   width: 420px;
 }
 
 .item3 {
-  background-image: url("/tercersilde.png");
+  background-image: url("./../imagenes/tercersilde.png");
   background-size: cover;
   height: 270px;
   width: 420px;
 }
 
 .item4 {
-  background-image: url("/cuartosilde.png");
+  background-image: url("./../cuartosilde.png");
   background-size: cover;
   height: 270px;
   width: 420px;
 }
 
 .item5 {
-  background-image: url("/quintosilde.png");
+  background-image: url("./../quintosilde.png");
   background-size: cover;
   height: 270px;
   width: 420px;
@@ -1214,7 +1214,7 @@ a img {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-7.63%, rgba(255, 255, 255, 0.6)), to(rgba(255, 241, 239, 0.6)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) -7.63%, rgba(255, 241, 239, 0.6) 100%);
   padding-top: 2%;
-  height: 630px;
+  height: fit-content;
 }
 
 .nuestraComunidad .titleNuestraComu {
