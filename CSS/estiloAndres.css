@@ -181,7 +181,7 @@ body{
 }
 #Gracias{
     padding-top: 3%;
-    font-family: Kaufmann BT;
+    font-family: 'Kaufmann BT', arial;
     font-style: italic;
     font-weight: 500;
     font-size: 96px;
@@ -652,7 +652,7 @@ body{
 }
 #clasesItalicoVerde{
     padding-top: 3%;
-    font-family: Kaufmann BT;
+    font-family: 'Kaufmann BT', arial;
     font-style: italic;
     font-weight: 500;
     font-size: 72px;
