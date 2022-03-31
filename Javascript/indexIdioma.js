@@ -1,6 +1,6 @@
 // Variable
 let lenguaje
-
+//  La mayoria de esto lo traduje yo =/
 const indexEng = {
     tit1: "DANCING YOUR WAY TO SAVASANA",
     desc1: "Yogumba is a space of FUN and CONNECTION.",
@@ -10,37 +10,37 @@ const indexEng = {
     btn1: "EXPLORE",
     tit2: "Yogumba is a holistic experience",
     desc5: "We combine different disciplines that complement each other",
-    desc6: "movement begets life, it moves stalled energy and puts it in circulation.",
-    desc7: "Bailar es moverse de manera divertida. Cuanto más te movés, más sentís.",
-    verMas: "Ver mas",
-    desc8: "Yoga es UNIÓN. Esta disciplina muestra cómo la espiritualidad nace en el cuerpo ",
-    desc9: "y se expresa desde allí, gracias a sus movimientos sincronizados con la respiración.",
-    desc10: "La meditación consiste en conectar con el propio ritmo de respiración. ",
-    desc11: "Invita a la persona a ponerse en un lugar de observador de sí mismo, pero sin involucrarse.",
-    weirdTitle: "<strong>¿Que es</strong> YOGUMBA?</h2>",
-    weirdTile2: "Yogumba es una experiencia de <strong>conexión y diversión.</strong></p>",
-    desc13: "Podes formar parte de la experiencia de manera online y presencial.",
-    tit3: "Sumergite en la experiencia",
-    desc14: "¿Querés saber más? Déjate empapar por este baño de ALEGRÍA y PAZ para tu alma",
+    desc6: "Movement begets life, it moves stalled energy and puts it in circulation.",
+    desc7: "Dancing is moving in a fun way. more movement, more fun.",
+    verMas: "See more",
+    desc8: "Yoga is CoNNECTION. This dicipline shows how spirituality is born from the body",
+    desc9: "and expresses itself from there, thanks to its movements synchronizing with breathing.",
+    desc10: "Meditations consists in connecting with your respiration rythm. ",
+    desc11: "It begets a person to put itself in a place to observe itself, but without involucrating yourself.",
+    weirdTitle: "<strong>What is</strong> YOGUMBA?</h2>",
+    weirdTile2: "Yogumba is an experience of <strong>fun and connection,</strong>where 3 disciplines are combined - Zumba, Yoga and Meditation - all in the same class. You can join online and face-to-face.</p>",
+    desc13: "You can form part of this experience presential or online.",
+    tit3: "Immerse yourself in the experience",
+    desc14: "Want to know more? Let yourself bathe in HAPPINESS and PEACE for your soul",
     btn2: "VIDEOS",
-    btn3: "INFORMACION",
-    desc15: "Lo que dice nuestra comunidad",
-    desc16: "Cada persona que viene a nuestras clases es única y vive la experiencia de forma particular.",
-    desc17: "Al ser una propuesta INTEGRAL, cada un@ va tomando lo que más necesita y resuena con su alma en el momento en que se encuentra.",
-    desc18: "“Me invitaron a una clase de zumba y terminó siendo mucho más que eso. Después de hacer mucho ejercicio escuchando canciones muy divertidas, bailando y riendo en grupo, Martina nos lleva a un espacio de relajación e introspección a través de una práctica meditativa y consciente, que me permite relajarme, estar presente y absorber todos los beneficios del ejercicio.”",
+    btn3: "INFORMATION",
+    desc15: "What our community says",
+    desc16: "Each person that comes to our classes is unique yand lives their own particular experience.",
+    desc17: "Being an INTEGRAL proposition, each one takes what they need the most and it echoes in their soul the moment they find it.",
+    desc18: "“I was invited to a class of zumba and it ended being more than that. Después de hacer mucho ejercicio escuchando canciones muy divertidas, bailando y riendo en grupo, Martina nos lleva a un espacio de relajación e introspección a través de una práctica meditativa y consciente, que me permite relajarme, estar presente y absorber todos los beneficios del ejercicio.”",
     desc19: "“Es una combinación perfecta para el cuerpo alma y espíritu empezar con zumba y terminar con una relajación guiada para hacer conciencia del ejercicio realizado.  Es un momento para uno que disfruto mucho! La energía y el amor que le ponen las profes nos deja renovadas”",
-    desc20: "“Las clases están buenísimas! Siempre quise hacer algún tipo de baile y la zumba es ideal porque es más fácil de aprender, además es una forma de hacer ejercicio de forma divertida. La mini yoga y ejercicios de respiración después de la clase me encantan, me voy muy relajada”",
-    tit7: "Lo mejor de Yogumba",
-    desc22: "“Zumba es sinónimo de ALEGRÍA y DIVERSIÓN”",
-    desc23: "Clases",
-    tit9: "¿Queres formar parte de YOGUMBA?",
-    desc24: "Podes formar parte de manera presencial y online",
-    desc25: "Galeria",
-    tit10: "“Queres vernos en acción?” ",
-    desc26: "Encontrarás acá material acerca de nuestras clases y verás como nuestra comunidad vive esta increíble experiencia",
-    desc27: "Contacto",
-    tit11: "Dejame tu comentario",
-    desc28: "Si queres ponerte en contacto o hacer cualquier sugerencia , completa el formulario y te responderemos lo antes posible.",
+    desc20: "“The classes are the best! I always wanted to dance and zumba is ideal because its easy to learn, it's also a fun exercise. I enjoy the yoga and breathing exercises after class, I leave relaxed”",
+    tit7: "Best of Yogumba",
+    desc22: "Zumba is a synonym of JOY and FUN",
+    desc23: "Classes",
+    tit9: "Do you want to be part of YOGUMBA?",
+    desc24: "You can take part online and face-to-face.",
+    desc25: "Gallery",
+    tit10: "Would you like to see us in action?",
+    desc26: "Here you will find material about our classes and you will see how our community lives this amazing experience",
+    desc27: "Contact",
+    tit11: "Leave your comment",
+    desc28: "If you want to get in touch or make a suggestion, please complete the form and we will respond as soon as possible.",
 }
 
 const indexEsp = {
@@ -60,7 +60,7 @@ const indexEsp = {
     desc10: "La meditación consiste en conectar con el propio ritmo de respiración. ",
     desc11: "Invita a la persona a ponerse en un lugar de observador de sí mismo, pero sin involucrarse.",
     weirdTitle: "<strong>¿Que es</strong> YOGUMBA?</h2>",
-    weirdTile2: "Yogumba es una experiencia de <strong>conexión y diversión.</strong></p>",
+    weirdTile2: "Yogumba es una experiencia de <strong>diversión y conexión.</strong>, en donde se combinan 3 disciplinas- Zumba, Yoga y Meditación- , todas en una misma clase. Podes formar parte de manera online y presencial.</p>",
     desc13: "Podes formar parte de la experiencia de manera online y presencial.",
     tit3: "Sumergite en la experiencia",
     desc14: "¿Querés saber más? Déjate empapar por este baño de ALEGRÍA y PAZ para tu alma",
@@ -73,16 +73,16 @@ const indexEsp = {
     desc19: "“Es una combinación perfecta para el cuerpo alma y espíritu empezar con zumba y terminar con una relajación guiada para hacer conciencia del ejercicio realizado.  Es un momento para uno que disfruto mucho! La energía y el amor que le ponen las profes nos deja renovadas”",
     desc20: "“Las clases están buenísimas! Siempre quise hacer algún tipo de baile y la zumba es ideal porque es más fácil de aprender, además es una forma de hacer ejercicio de forma divertida. La mini yoga y ejercicios de respiración después de la clase me encantan, me voy muy relajada”",
     tit7: "Lo mejor de Yogumba",
-    desc22: "“Zumba es sinónimo de ALEGRÍA y DIVERSIÓN”",
+    desc22: "Zumba es sinónimo de ALEGRÍA y DIVERSIÓN",
     desc23: "Clases",
     tit9: "¿Queres formar parte de YOGUMBA?!",
     desc24: "Podes formar parte de manera presencial y online",
     desc25: "Galeria",
-    tit10: "Nuestra comunidad",
-    desc26: "Encontrarás acá material acerca de nuestras clases y verás cómo nuestra comunidad vive esta increíble experiencia.",
+    tit10: "Queres vernos en acción?",
+    desc26: "Encontrarás acá material acerca de nuestras clases y verás como nuestra comunidad vive esta increíble experiencia",
     desc27: "Contacto",
-    tit11: "Dejame tu comentario",
-    desc28: "Si queres ponerte en contacto o hacer cualquier sugerencia , completa el formulario y te responderemos lo antes posible.",
+    tit11: "Deja tu comentario",
+    desc28: "Si queres ponerte en contacto o hacer una sugerencia, completa el formulario y te responderemos lo antes posible.",
 }
 
 
@@ -97,17 +97,40 @@ const indexLenguaje = ()=>{
     } else if(lenguaje === "esp"){
         text = indexEsp
     }
-    document.getElementById("clasesTitulo1").innerText = text.titulo1
-    document.getElementById("clasesTitulo2").innerText = text.titulo2
-    document.getElementById("clasesContenedorDesc").innerHTML = ""
-    for(let i = 0; i<text.contenedorDesc.length; i++){
-        let p = document.createElement("p")
-        p.innerText = text.contenedorDesc[i]
-        document.getElementById("clasesContenedorDesc").appendChild(p)
-    }
-    document.getElementById("clasesItalicoVerde").innerText = text.italics
-    document.getElementById("clasesTitulo3").innerText = text.titulo3
-    document.getElementById("clasesDesc1").innerText = text.desc1
+    document.getElementById("tit1").innerText = text.tit1
+    document.getElementById("desc1").innerText = text.desc1
+    document.getElementById("desc2").innerText = text.desc2
+    document.getElementById("desc3").innerText = text.desc3
+    document.getElementById("desc4").innerText = text.desc4
+    document.getElementById("btn1").innerText = text.btn1
+    document.getElementById("tit2").innerText = text.tit2
+    document.getElementById("desc5").innerText = text.desc5
+    document.getElementById("desc6").innerText = text.desc6
+    document.getElementById("desc7").innerText = text.desc7
+    document.getElementById("mas1").innerText = text.verMas
+    document.getElementById("desc8").innerText = text.desc8
+    document.getElementById("desc9").innerText = text.desc9
+    document.getElementById("mas2").innerText = text.verMas
+    document.getElementById("desc10").innerText = text.desc10
+    document.getElementById("desc11").innerText = text.desc11
+    document.getElementById("mas3").innerText = text.verMas
+    document.getElementById("weirdTitle").innerHTML = text.weirdTitle
+    document.getElementById("weirdTile2").innerHTML = text.weirdTile2
+    document.getElementById("desc13").innerText = text.desc13
+    document.getElementById("tit3").innerText = text.tit3
+    document.getElementById("desc14").innerText = text.desc14
+    document.getElementById("btn2").innerText = text.btn2
+    document.getElementById("btn3").innerText = text.btn3
+    document.getElementById("desc15").innerText = text.desc15
+    document.getElementById("desc16").innerText = text.desc16
+    document.getElementById("desc17").innerText = text.desc17
+    document.getElementById("tit4").innerText = text.tit4
+    document.getElementById("desc18").innerText = text.desc18
+    document.getElementById("tit5").innerText = text.tit5
+    document.getElementById("desc19").innerText = text.desc19
+    document.getElementById("tit6").innerText = text.tit6
+    document.getElementById("desc20").innerText = text.desc20
+
 
 }
 /* Header y Footer */

@@ -16,7 +16,7 @@ const contactoEspanol = {
 //Textos en ingles
 const contactoIngles = {
     headerPrincipal: "Leave your comment",
-    headerSecundario: "We want to know more about you!",
+    headerSecundario: "We would like to know more about you",
     descripcionSecundaria: "If you would like to get in touch with us or if you have any inquiries, please complete this form and we will get back to you as soon as possible.",
     form: {
         nombre: "Name",

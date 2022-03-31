@@ -12,7 +12,7 @@ const clasesEsp = {
 }
 const clasesEng = {
     titulo1: "Want to become part of YOGUMBA?",
-    titulo2: "On-location experience",
+    titulo2: "Face-to-face experience ",
     contenedorDesc: ["Time: Monday 6.45pm-8pm.", "Location: 1 Acacia Street, Industrial Area, Byron Bay 2481 NSW, Australia.", "We count with the colaboration of Rochi (Zumba Registrada Instructor, Member ZIN)"],
     italics: "What are yo waiting for?",
     titulo3: "Online experience",

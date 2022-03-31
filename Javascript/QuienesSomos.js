@@ -32,7 +32,7 @@ const quienesEsp = {
 const quienesEng = {
     section1:{
         primerHeader: "START WITH A WIGGLE, END WITH AN OM",
-        contenedorDesc1: ["YOGUMBA begins with dancing, moving your body to the rhythm of fun songs and elevating your emotional state to 100%;", "With Zumba you will activate the music of your soul. ", "he class ends with a unique moment of relaxation and integration, giving you UNION within you, so that you can connect your mind-body-soul experiences."],
+        contenedorDesc1: ["YOGUMBA begins with dancing, moving your body to the rhythm of fun songs and elevating your emotional state to 100%;", "With Zumba you will activate the music of your soul. ", "The class ends with a unique moment of relaxation and integration, giving you UNION within you, so that you can connect your mind-body-soul experiences."],
         boton1: "Come meet me", /* No nos lo paso lo tuve que poner yo */
     },
     section2: {
