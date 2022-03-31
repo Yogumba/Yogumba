@@ -4,6 +4,13 @@
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Kaufmann BT';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./kaufmann-bt_[allfont.net].ttf") format("truetype");
+}
+
 a img {
   width: 11rem;
   padding: 1px 20px 5px;
