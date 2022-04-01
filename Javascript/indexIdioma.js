@@ -27,9 +27,9 @@ const indexEng = {
     desc15: "What our community says",
     desc16: "Each person that comes to our classes is unique yand lives their own particular experience.",
     desc17: "Being an INTEGRAL proposition, each one takes what they need the most and it echoes in their soul the moment they find it.",
-    desc18: "“I was invited to a class of zumba and it ended being more than that. Después de hacer mucho ejercicio escuchando canciones muy divertidas, bailando y riendo en grupo, Martina nos lleva a un espacio de relajación e introspección a través de una práctica meditativa y consciente, que me permite relajarme, estar presente y absorber todos los beneficios del ejercicio.”",
-    desc19: "“Es una combinación perfecta para el cuerpo alma y espíritu empezar con zumba y terminar con una relajación guiada para hacer conciencia del ejercicio realizado.  Es un momento para uno que disfruto mucho! La energía y el amor que le ponen las profes nos deja renovadas”",
-    desc20: "“The classes are the best! I always wanted to dance and zumba is ideal because its easy to learn, it's also a fun exercise. I enjoy the yoga and breathing exercises after class, I leave relaxed”",
+    desc18: "“I was invited to a Zumba class and it ended up being much more than that. I experience it as an intense process; first going outwards and then inwards. After doing a lot of exercise while listening to very fun songs, dancing and laughing together with the tribe, Martina takes us to a space of relaxation and introspection through a meditative and conscious practice, which allows me to relax, be present and absorb all the benefits of exercise.”",
+    desc19: "“It is a perfect combination for the body, soul and spirit to start with Zumba and end with a guided relaxation to raise awareness of the exercise we have just performed. It is a moment of connection with myself which I enjoy a lot! The energy and all the love that the teachers put into it leaves us renewed.”",
+    desc20: "“The classes are great” I´ve always wanted to do some kind of dance and Zumba is ideal because it is easier to learn, plus it is a fun way to exercise. I love the mini Yoga and breathing exercises at the end of the class; I end up feeling relaxed.”",
     tit7: "Best of Yogumba",
     desc22: "Zumba is a synonym of JOY and FUN",
     desc23: "Classes",
@@ -60,7 +60,7 @@ const indexEsp = {
     desc10: "La meditación consiste en conectar con el propio ritmo de respiración. ",
     desc11: "Invita a la persona a ponerse en un lugar de observador de sí mismo, pero sin involucrarse.",
     weirdTitle: "<strong>¿Que es</strong> YOGUMBA?</h2>",
-    weirdTile2: "Yogumba es una experiencia de <strong>diversión y conexión.</strong>, en donde se combinan 3 disciplinas- Zumba, Yoga y Meditación- , todas en una misma clase. Podes formar parte de manera online y presencial.</p>",
+    weirdTile2: "Yogumba es una experiencia de <strong>diversión y conexión.</strong>, en donde se combinan 3 disciplinas- Zumba, Yoga y Meditación- , todas en una misma clase. Podes formar parte de manera online y presencial.",
     desc13: "Podes formar parte de la experiencia de manera online y presencial.",
     tit3: "Sumergite en la experiencia",
     desc14: "¿Querés saber más? Déjate empapar por este baño de ALEGRÍA y PAZ para tu alma",
@@ -127,6 +127,17 @@ const indexLenguaje = ()=>{
     document.getElementById("desc18").innerText = text.desc18
     document.getElementById("desc19").innerText = text.desc19
     document.getElementById("desc20").innerText = text.desc20
+    document.getElementById("tit7").innerText = text.tit7
+    document.getElementById("desc22").innerText = text.desc22
+    document.getElementById("tit9").innerText = text.tit9
+    document.getElementById("desc24").innerText = text.desc24
+    document.getElementById("desc25").innerText = text.desc25
+    document.getElementById("tit10").innerText = text.tit10
+    document.getElementById("desc26").innerText = text.desc26
+    document.getElementById("desc27").innerText = text.desc27
+    document.getElementById("desc27").innerText = text.desc27
+    document.getElementById("tit11").innerText = text.tit11
+    document.getElementById("desc28").innerText = text.desc28
 
 
 }

@@ -150,7 +150,7 @@ const meditacion = ()=>{
     div.appendChild(img1)
     mainDiv = document.createElement("div");
     let h3 = document.createElement("h3")
-    h3.innerText = 'Meditacion!'
+    h3.innerText = 'Meditacion'
     if(lenguaje === "esp"){
         h3.innerText= `Meditation!`
     }
