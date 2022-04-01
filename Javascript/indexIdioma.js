@@ -10,7 +10,7 @@ const indexEng = {
     btn1: "EXPLORE",
     tit2: "Yogumba is a holistic experience",
     desc5: "We combine different disciplines that complement each other",
-    desc6: "Movement gives you life (put this phrase in bold), moves stagnant energy and puts it into circulation.",
+    desc6: "Movement gives you life, moves stagnant energy and puts it into circulation.",
     desc7: "Dancing is moving in a fun way. The more you move, the more you feel. All your senses are awakened.",
     verMas: "See more",
     desc8: "Yoga is UNION. Brings awareness about the connection between the body and spirituality.",
